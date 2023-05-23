@@ -3,11 +3,12 @@
 import TextareaAutosize from "@mui/base/TextareaAutosize";
 import JournalHeader from "./components/journal_header";
 import JournalNav from "./components/journal_nav";
+import Entry from "./components/entry";
 
 export default function Home() {
   return (
     <div className="flex max-w-5xl mx-auto flex-col justify-center py-2">
-      <div className="flex flex-1 w-full flex-col px-20 mt-10">
+      <div className="flex flex-col px-20 mt-4">
         <JournalNav />
         <JournalHeader />
         <div className="mt-10">
@@ -21,6 +22,8 @@ export default function Home() {
             placeholder="What's on your mind?"
           ></TextareaAutosize>
         </div>
+        <Entry />
+        <Entry />
       </div>
     </div>
   );
