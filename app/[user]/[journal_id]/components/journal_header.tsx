@@ -15,7 +15,7 @@ export default function JournalHeader() {
   };
 
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between mb-10">
       <div>
         <p className="text-xl font-medium">Learning to code</p>
         <p className="text-gray-2 text-sm">15 entries</p>

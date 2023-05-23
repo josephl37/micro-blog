@@ -1,9 +1,9 @@
 "use client";
 
-import TextareaAutosize from "@mui/base/TextareaAutosize";
 import JournalHeader from "./components/journal_header";
 import JournalNav from "./components/journal_nav";
 import Entry from "./components/entry";
+import TextInput from "./components/text_input";
 
 export default function Home() {
   return (
@@ -11,17 +11,7 @@ export default function Home() {
       <div className="flex flex-col px-20 mt-4">
         <JournalNav />
         <JournalHeader />
-        <div className="mt-10">
-          <TextareaAutosize
-            className="block
-                resize-none
-                p-2
-                w-full
-                bg-gray-1
-                focus:border-gray-500 focus:bg-white focus:ring-0"
-            placeholder="What's on your mind?"
-          ></TextareaAutosize>
-        </div>
+        <TextInput />
         <Entry />
         <Entry />
       </div>
