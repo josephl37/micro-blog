@@ -1,6 +1,6 @@
 export default function Entry() {
   return (
-    <div className="mt-10">
+    <div className="mt-10 hover:bg-gray-1 p-2">
       <div className="flex justify-between">
         <p className="text-gray-2">Entry 1</p>
         <p className="text-gray-2">October 10th, 2023</p>

@@ -8,7 +8,7 @@ export default function TextInput() {
                 p-2
                 w-full
                 bg-gray-1
-              focus:bg-whit
+              focus:bg-white
               placeholder:text-gray-2
               "
       placeholder="What's on your mind?"
