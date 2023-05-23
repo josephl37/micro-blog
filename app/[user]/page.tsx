@@ -1,4 +1,5 @@
 import { merriweather, roboto } from "../layout";
+import AddGrid from "./components/add_grid";
 import Grid from "./components/grid";
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
           </p>
         </div>
         <div className="mt-8 grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-          <Grid />
+          <AddGrid />
           <Grid />
           <Grid />
           <Grid />
