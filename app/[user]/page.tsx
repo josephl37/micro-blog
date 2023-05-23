@@ -3,7 +3,7 @@ import Grid from "./components/grid";
 
 export default function Home() {
   return (
-    <div className="flex max-w-5xl mx-auto flex-col items-center justify-center py-2 h-screen">
+    <div className="flex max-w-5xl mx-auto flex-col justify-center py-2">
       <div className="flex flex-1 w-full flex-col px-20 mt-4">
         <div>
           <p className={`${merriweather.className} text-xl`}>John Doe</p>
